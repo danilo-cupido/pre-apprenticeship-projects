@@ -1,7 +1,7 @@
 # pre-apprenticeship-projects
 A collection of my pre apprenticeship projects 
 
-![FAC logo](https://d33wubrfki0l68.cloudfront.net/c2d50fb2bb7fbce77cb5c3d20032fcb565eb39cb/7070e/static/fac_logo-4255a40f47764e69170884e3030fb6b3.svg)
+![FAC logo](https://www.coops.tech/images/coops/founders-and-coders)
 
 ## Week 1 
 
@@ -57,4 +57,4 @@ A collection of my pre apprenticeship projects
 - [x] Find his blog and YouTube channel and spend some time with them.
 
 ### Optional homework 
-- [ ] Attempt to create a script that generates 11 combinations of 4 groups of 3 people, so that any two people share the same group exactly twice and no three people are in the same group more than once. No group should be majoritively male. (I haven’t checked if this is a solvable problem yet, so please don’t spend too much time on it). Please don’t post your solutions until this time next week, to give everyone who wants to have a go at it a bit of time.
+- [ ] Attempt to create a script that generates 11 combinations of 4 groups of 3 people, so that any two people share the same group exactly twice and no three people are in the same group more than once. No group should be majoritively male.
