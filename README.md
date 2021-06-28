@@ -19,7 +19,7 @@ A collection of my pre apprenticeship projects
 
 ### HTML 
 - [x] Work through [Semantic HTML workshop](https://learn.foundersandcoders.com/workshops/semantic-html/) to practice using more descriptive elements rather than divs and spans.
-- [ ] **Challenge** *re-write an HTML page to use semantic HTML. Try to replace as many generic elements with more descriptive semantic ones. Once done it should contain no <div>s at all.*
+- [x] **Challenge** *re-write an HTML page to use semantic HTML. Try to replace as many generic elements with more descriptive semantic ones. Once done it should contain no <div>s at all.*
 
 ### A11y 
 - [x] Work through the [Learn Accessibility workshop](https://learn.foundersandcoders.com/workshops/learn-a11y/) to practice building sites for everyone.
