@@ -31,7 +31,7 @@ A collection of my pre apprenticeship projects
 ### Projects 
 - [x] Sign up for [JavaScript 30](https://javascript30.com/) and work on the first two projects:
 
-- [ ] JavaScript Drum Kit
+- [x] JavaScript Drum Kit
 - [ ] CSS + JS Clock
 
 *Focus on using Semantic HTML, ensuring the sites have 100% in a Lighthouse Accessibility audit, and manually testing the accessibility.*
