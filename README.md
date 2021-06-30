@@ -23,7 +23,7 @@ A collection of my pre apprenticeship projects
 
 ### A11y 
 - [x] Work through the [Learn Accessibility workshop](https://learn.foundersandcoders.com/workshops/learn-a11y/) to practice building sites for everyone.
-- [ ] **Challenge** *identify and fix a11y problems on [this example page](https://learn.foundersandcoders.com/workshops/learn-a11y/starter-files/). The page contains 11 failures; try to find them all.*
+- [x] **Challenge** *identify and fix a11y problems on [this example page](https://learn.foundersandcoders.com/workshops/learn-a11y/starter-files/). The page contains 11 failures; try to find them all.*
 1. *Re-read [The A11y Project’s Checklist](https://www.a11yproject.com/checklist/) before you start so you can identify obvious WCAG violations.*
 2. *Don’t forget to use Chrome’s Lighthouse tab to find easy problems.*
 3. *You’ll have to manually test with your keyboard and screen reader to find some of the issues.*
