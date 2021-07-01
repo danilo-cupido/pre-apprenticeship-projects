@@ -9,7 +9,7 @@ A collection of my pre apprenticeship projects
 ### CSS Layouts
 
 - [ ] Work through the [CSS Layouts](https://learn.foundersandcoders.com/workshops/css-layout/).
-- [ ] And build a [projects gallery](https://learn.foundersandcoders.com/course/syllabus/pre-apprenticeship-2/project/).
+- [ ] Build a [projects gallery](https://learn.foundersandcoders.com/course/syllabus/pre-apprenticeship-2/project/).
 
 ### CSS Grid
 
@@ -32,11 +32,9 @@ CSS Grid offers two-dimensional layouts for our pages. We define a series of row
 
 - [ ] Work through _Playing with CSS Variables and JS && Array Cardio 1_ on [JavaScript30](https://javascript30.com/).
 
-### Markdown
-
 ### Execute Program
 
-- [x] Continue with Modern JavaScript and Arrays. Started working on Concurrency. Try to do at least one problem a day.
+- [x] Continue with Modern JavaScript and Arrays. Start working on Concurrency. Try to do at least one problem a day.
 
 ### Employment
 
