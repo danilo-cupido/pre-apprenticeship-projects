@@ -38,4 +38,6 @@ CSS Grid offers two-dimensional layouts for our pages. We define a series of row
 
 ### Employment
 
-Tbc
+- [ ] A tweet a day.
+- [ ] Prepare another coding challenge (this time it can be anything).
+- [ ] Research next week's employer.
