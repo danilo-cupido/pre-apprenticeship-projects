@@ -54,9 +54,7 @@
 }
 
 .title {
-  /* font-weight: bold; */
   font-size: 2rem;
-  /* font-family: "Shadows Into Light", cursive; */
   font-family: "Permanent Marker", cursive;
   text-shadow: 1px 1px 1px grey;
 }
@@ -106,12 +104,6 @@ header {
   border-bottom: 1px solid hsl(200, 10%, 80%);
   padding: 0.75rem 1.5rem;
 }
-
-/* .logo {
-  font-family: cursive;
-  font-weight: bold;
-  font-size: 1.125rem;
-} */
 
 main {
   padding: 4rem 1.5rem;
