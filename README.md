@@ -9,7 +9,7 @@ A collection of my pre apprenticeship projects
 ### CSS Layouts
 
 - [x] Work through the [CSS Layouts](https://learn.foundersandcoders.com/workshops/css-layout/).
-- [ ] Build a [projects gallery](https://learn.foundersandcoders.com/course/syllabus/pre-apprenticeship-2/project/).
+- [x] Build a [projects gallery](https://learn.foundersandcoders.com/course/syllabus/pre-apprenticeship-2/project/).
 
 ### CSS Grid
 
