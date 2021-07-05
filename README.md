@@ -8,7 +8,7 @@ A collection of my pre apprenticeship projects
 
 ### CSS Layouts
 
-- [ ] Work through the [CSS Layouts](https://learn.foundersandcoders.com/workshops/css-layout/).
+- [x] Work through the [CSS Layouts](https://learn.foundersandcoders.com/workshops/css-layout/).
 - [ ] Build a [projects gallery](https://learn.foundersandcoders.com/course/syllabus/pre-apprenticeship-2/project/).
 
 ### CSS Grid
@@ -20,7 +20,7 @@ CSS Grid offers two-dimensional layouts for our pages. We define a series of row
 
 ### A11y
 
-- [ ] Look into [ARIA Labels](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/) and learn [why they’re used](https://www.24a11y.com/2019/what-a-year-of-learning-and-teaching-accessibility-taught-me/). Try to use them in your project when they’re needed.
+- [x] Look into [ARIA Labels](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/) and learn [why they’re used](https://www.24a11y.com/2019/what-a-year-of-learning-and-teaching-accessibility-taught-me/). Try to use them in your project when they’re needed.
 
 ### Git and GitHub
 
@@ -38,6 +38,6 @@ CSS Grid offers two-dimensional layouts for our pages. We define a series of row
 
 ### Employment
 
-- [ ] A tweet a day.
+- [x] A tweet a day.
 - [ ] Prepare another coding challenge (this time it can be anything).
 - [ ] Research next week's employer.
