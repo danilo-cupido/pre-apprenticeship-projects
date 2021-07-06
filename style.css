@@ -126,8 +126,25 @@ footer a:hover {
 
 .darkBackground {
   background-color: #303133;
+  transition: 0.5s ease;
 }
 
 .darkText {
   color: white;
+  transition: 0.5s ease;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.visible {
+  display: block;
+  transition: 0.5s ease;
+}
+
+.hidden {
+  display: none;
+  transition: 0.5s ease;
 }
