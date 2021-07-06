@@ -10,12 +10,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/34b0f0d8d7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <body class="background">
 
-    <header>
+    <header >
       <div class="row center width-lg">
-        <button>Dark Mode</button>
+        <button id="darkLight" class="text">
+          <div id="moon" class="visible">
+          <i class="fas fa-moon"></i>
+        </div>
+        <div id="sun" class="hidden">
+          <i class="fas fa-sun"></i>
+        </div>
+        </button>
       </div>
     </header>
 
@@ -31,7 +42,7 @@
           />
           <div class="stack-md">
             <div>
-              <h1 class="title">Danilo's Projects Gallery</h1>
+              <h1 class="title text">Danilo's Projects Gallery</h1>
           </div>
         </div>
       </section>
@@ -47,7 +58,7 @@
               src="Images/semantic.png"
               alt="Semantic HTML project homepage"
             />
-          <figcaption>Semantic HTML project</figcaption>
+          <figcaption class="text">Semantic HTML project</figcaption>
           </a>
           </figure>
           </li>
@@ -60,7 +71,7 @@
               src="Images/a11y.png"
               alt="Accessibility workshop homepage"
             />
-            <figcaption>Accessibility workshop</figcaption>
+            <figcaption class="text">Accessibility workshop</figcaption>
           </a>
           </figure>
           </li>
@@ -73,7 +84,7 @@
               src="Images/DrumKit.png"
               alt="JavaScript Drum Kit workproject homepage"
             />
-            <figcaption>JS Drum Kit workproject</figcaption>
+            <figcaption class="text">JS Drum Kit workproject</figcaption>
           </a>
           </figure>
           </li>
@@ -86,7 +97,7 @@
               src="Images/Clock.png"
               alt="CSS and JS Clock workshop homepage"
             />
-            <figcaption>CSS + JS Clock workshop</figcaption>
+            <figcaption class="text">CSS + JS Clock workshop</figcaption>
           </a>
           </figure>
           </li>
@@ -99,7 +110,7 @@
               src="Images/css_1.png"
               alt="First CSS layout challenge"
             />
-            <figcaption>First CSS layout challenge</figcaption>
+            <figcaption class="text">First CSS layout challenge</figcaption>
           </a>
           </figure>
           </li>
@@ -112,7 +123,7 @@
               src="Images/css_2.png"
               alt="Second CSS layout challenge"
             />
-            <figcaption>Second CSS layout challenge</figcaption>
+            <figcaption class="text">Second CSS layout challenge</figcaption>
             </a>
           </figure>
           </li>
@@ -125,7 +136,7 @@
               src="Images/css_3.png"
               alt="Third CSS layout challenge"
             />
-            <figcaption>Third CSS layout challenge</figcaption>
+            <figcaption class="text">Third CSS layout challenge</figcaption>
             </a>
           </figure>
           </li>
@@ -138,7 +149,7 @@
               src="Images/css_4.png"
               alt="Fourth CSS layout challenge"
             />
-            <figcaption>Fourth CSS layout challenge</figcaption>
+            <figcaption class="text">Fourth CSS layout challenge</figcaption>
             </a>
           </figure>
           </li>
@@ -146,7 +157,8 @@
       </section>
     </main>
     <footer>
-      <p>Designed by <a href="https://github.com/danilo-cupido" target="_blank">Danilo Cupido</a></p>
+      <p class="text">Designed by <a href="https://github.com/danilo-cupido" target="_blank">Danilo Cupido</a></p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
