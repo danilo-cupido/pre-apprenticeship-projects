@@ -25,4 +25,4 @@ Open index.html and look for the `switchTheme` function inside the `<script></sc
 
 Try to make sure your text and background colour contrast remain accessible. There are [contrast checking tools](https://contrastchecker.com/) that can help.
 
-# Thanks to [Bobby Sebolao](https://github.com/bobbysebolao) for this Repo!
+### Thanks to [Bobby Sebolao](https://github.com/bobbysebolao) for this Repo!
