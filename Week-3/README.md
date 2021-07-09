@@ -40,4 +40,4 @@ CSS Grid offers two-dimensional layouts for our pages. We define a series of row
 
 - [x] A tweet a day.
 - [x] Prepare another coding challenge (this time it can be anything).
-- [x] Research next week's employer.
+- [ ] Research next week's employer.
