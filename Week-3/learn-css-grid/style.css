@@ -6,9 +6,22 @@
 
 /* add/edit your style declarations here */
 
+.posts {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 300px auto;
+  grid-gap: 1rem;
+}
+
 .posts__two {
+  grid-column: span 2;
   background-image: url(https://css-tricks.com/wp-content/uploads/2018/12/guide-flexbox.png);
   background-size: cover;
+}
+
+.posts__four {
+  grid-column: -2 / -1;
+  grid-row: 1 / 3;
 }
 
 /* DO NOT ALTER BELOW THIS LINE */
