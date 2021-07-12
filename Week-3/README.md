@@ -30,7 +30,7 @@ CSS Grid offers two-dimensional layouts for our pages. We define a series of row
 
 ### JS30
 
-- [ ] Work through _Playing with CSS Variables and JS && Array Cardio 1_ on [JavaScript30](https://javascript30.com/).
+- [x] Work through _Playing with CSS Variables and JS && Array Cardio 1_ on [JavaScript30](https://javascript30.com/).
 
 ### Execute Program
 
@@ -40,4 +40,4 @@ CSS Grid offers two-dimensional layouts for our pages. We define a series of row
 
 - [x] A tweet a day.
 - [x] Prepare another coding challenge (this time it can be anything).
-- [ ] Research next week's employer.
+- [x] Research next week's employer.
