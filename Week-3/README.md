@@ -16,7 +16,7 @@ A collection of my pre apprenticeship projects
 CSS Grid offers two-dimensional layouts for our pages. We define a series of rows and columns and fit our content inside these.
 
 - [x] Work through [Grid Garden](https://cssgridgarden.com/) picking up where you left off in the workshop.
-- [ ] Have a go at [recreating a BBC News style homepage](https://github.com/bobbysebolao/learn-css-grid) using CSS Grid.
+- [x] Have a go at [recreating a BBC News style homepage](https://github.com/bobbysebolao/learn-css-grid) using CSS Grid.
 
 ### A11y
 
