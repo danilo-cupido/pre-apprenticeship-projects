@@ -40,7 +40,7 @@ Visit the [spikes](https://learn.foundersandcoders.com/course/syllabus/pre-app-3
 
 - [x] Continue working on _Modern JavaScript_, _Arrays_ and _Concurrency_.
 
-- [ ] The final two sections are _Regular Expressions_ and _SQL_.
+- [x] The final two sections are _Regular Expressions_ and _SQL_.
 
 ### Employment
 
