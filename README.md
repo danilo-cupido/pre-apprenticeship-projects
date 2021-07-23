@@ -4,51 +4,46 @@ A collection of my pre apprenticeship projects
 
 ![FAC logo](https://www.coops.tech/images/coops/founders-and-coders)
 
-## Week 4
+## Week 6
 
-### Git and GitHub
+### GitHub
 
-- [x] Upload your learnings to your GitHub learning repository.
-- [ ] This week, focus on adding some reflections on:
+Upload your learnings from this week onto your learning repository.
 
-* CSS Architecture
-* Responsive Design
-* Advanced CSS
+Now that you’ve code reviewed someone else’s code, you can review and refactor your own site. Consider the architecture of the site, the focus and what you want to show off to visitors.
 
-### Spikes
-
-During the course, each week you’ll do [technical spikes](https://learn.foundersandcoders.com/course/handbook/spikes/) with members of other project teams.
-
-This week, these three topics are your spikes. Each person should learn every topic and be able to talk about it, how you research them is up to you and we’d love to see you working together.
-
-Visit the [spikes](https://learn.foundersandcoders.com/course/syllabus/pre-app-3/spikes/) tab for some questions to consider and resources to help you.
+Pair up and review one anothers’ sites too.
 
 ### Project
 
-- [ ] The focus of the [project](https://learn.foundersandcoders.com/course/syllabus/pre-app-3/project/) this week is to refactor your site with what you’ve learnt this week in mind.
-
-- [ ] Add reflections to your learnings repository on:
-
-* How you found looking at code you’d written and refactoring
-* Any challenges you encouter with updating the layout of a site to be responsive
-
-### JavaScript30
-
-- [ ] Work through _Array Cardio 2_ and build _Flex Panels Image Gallery_.
+Continue working on your digital agency site in pairs. Have a look at the [new User Stories](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/project/) and work on them this week.
 
 ### Execute Program
 
-- [x] Continue working on _Modern JavaScript_, _Arrays_ and _Concurrency_.
+Keep up with your daily practice on Execute Program.
 
-- [x] The final two sections are _Regular Expressions_ and _SQL_.
+### JavaScript30
+
+Continue working on JavaScript30 Projects. We suggest taking a look at these two:
+
+- JS30: Object and Arrays - Reference VS Copy
+- JS30: Sorting Band Names without articles
+
+This week’s [project](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/project/) take precedence over JavaScript30 projects. Focus on delivering on your features there before completing additional projects.
+
+### Spikes
+
+This week, there is one [tech spike on Advanced DOM](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/spikes/).
 
 ### Employment
 
 - [x] Set aside at least one hour every day, 5 days/week
 
 * Execute Program
-* At least one Twitter conversation per day
-* Khan Academy computer science curriculum
+* Khan Academy, Algorithms
+* Keep developing those Twitter conversations
+* Keep adding green squares on GitHub
 
+- [x] Start work on your professional presence
 - [ ] Research next week’s employer
-- [ ] Make a start on your coding reading challenge repo
+- [ ] Keep working on your challenges repo
