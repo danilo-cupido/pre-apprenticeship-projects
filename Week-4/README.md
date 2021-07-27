@@ -34,7 +34,7 @@ Visit the [spikes](https://learn.foundersandcoders.com/course/syllabus/pre-app-3
 
 ### JavaScript30
 
-- [ ] Work through _Array Cardio 2_ and build _Flex Panels Image Gallery_.
+- [x] Work through _Array Cardio 2_ and build _Flex Panels Image Gallery_.
 
 ### Execute Program
 
