@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Console Tricks!</title>
+  </head>
+  <body>
+    <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+    <script>
+      const dogs = [
+        { name: "Snickers", age: 2 },
+        { name: "hugo", age: 8 },
+      ];
+
+      function makeGreen() {
+        const p = document.querySelector("p");
+        p.style.color = "#BADA55";
+        p.style.fontSize = "50px";
+      }
+
+      // clearing
+      console.clear(); // clear the console
+
+      // Regular
+      console.log("hello");
+
+      // Interpolated
+      console.log("Hello I am a %s string!", "💩");
+
+      // Styled
+      console.log(
+        "%c I am some great text",
+        "font-size:50px; background:red; text-shadow: 10px 10px 0 blue"
+      );
+
+      // warning!
+      console.warn("OH NOOO");
+
+      // Error :|
+      console.error("You can't be serious!");
+
+      // Info
+      console.info("Sandaman is the greatest comic book ever!");
+
+      // Testing
+      const p = document.querySelector("p");
+      console.assert(p.classList.contains("ouch"), "That is wrong!"); // the assumption must be false
+
+      console.assert(1 === 2, "Review your Math skills, please!"); // the assumption must be false
+
+      // Viewing DOM Elements
+      console.log(p); // see the actual element (in this case the one selected on line 46) in the console
+      console.dir(p); // see all the available methods and properties of the element
+
+      // Grouping together
+      dogs.forEach((dog) => {
+        console.groupCollapsed(`${dog.name}`);
+        console.log(`This is ${dog.name}`);
+        console.log(`${dog.name} is ${dog.age} years old`);
+        console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+        console.groupEnd(`${dog.name}`);
+      });
+
+      // counting
+      console.count("Danilo");
+      console.count("Danilo");
+      console.count("Jihyun");
+      console.count("Danilo");
+      console.count("Jihyun");
+      console.count("Danilo");
+      console.count("Danilo");
+      console.count("Jihyun");
+      console.count("Jihyun");
+      console.count("Jihyun");
+      console.count("Danilo");
+
+      // timing
+      console.time("fetching data");
+      fetch("https://api.github.com/users/webos")
+        .then((data) => data.json())
+        .then((data) => {
+          console.timeEnd("fetching data");
+          console.log(data);
+        });
+
+      // displaying the properties of an array of objects in a table
+      console.table(dogs);
+    </script>
+  </body>
+</html>
