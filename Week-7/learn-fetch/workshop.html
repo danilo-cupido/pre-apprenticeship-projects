@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Fetch & Promises</title>
+  </head>
+  <body>
+    <h1>Open the console</h1>
+    <script>
+      // CHALLENGE 1:
+      // const pokemon = fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+      // console.log(pokemon);
+
+      // CHALLENGE 2:
+      // fetch("https://pokeapi.co/api/v2/pokemon/pikachu").then((result) =>
+      //   console.log(result)
+      // );
+
+      // CHALLENGE 3:
+      // fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+      //   .then((result) => result.json())
+      //   .then((data) => console.log(data));
+
+      //   CHALLENGE 4
+      // fetch("brokenURL")
+      //   .then((result) => result.json())
+      //   .then((data) => console.log(data))
+      //   .catch((error) => console.log(error));
+
+      // WORKSHOP
+
+      // Task 1
+      function getUser(userName) {
+        return fetch(`https://api.github.com/users/${userName}`);
+      }
+
+      getUser("danilo-cupido")
+        .then((response) => response.json())
+        .then((data) => console.log(data))
+        .catch((error) => console.log(error));
+
+      // Task 2
+
+      function getRepos(userObj) {
+        return fetch(userObj.repos_url).then((response) => response.json());
+      }
+
+      getUser("danilo-cupido")
+        .then((response) => response.json())
+        .then(getRepos)
+        .then((data) => console.log(data))
+        .catch((error) => console.log(error));
+
+      // Task 3
+
+      const promise1 = getUser("danilo-cupido");
+      const promise2 = getUser("Jihyun-Jang");
+
+      Promise.all([promise1, promise2])
+        .then((data) => console.log(data))
+        .catch((error) => console.log(error));
+    </script>
+  </body>
+</html>
