@@ -48,7 +48,7 @@
 
       getUser("danilo-cupido")
         .then((response) => response.json())
-        .then(getRepos)
+        .then((userObj) => getRepos(userObj))
         .then((data) => console.log(data))
         .catch((error) => console.log(error));
 
