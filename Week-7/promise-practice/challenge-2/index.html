@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 2 | Promise practice</title>
+  </head>
+  <body>
+    <h1>Open the console</h1>
+    <script>
+      // write your code here
+
+      function pokeObj(url) {
+        return fetch(url).then((response) => response.json());
+      }
+
+      function species(obj) {
+        return fetch(obj.species.url).then((response) => response.json());
+      }
+
+      function shape(speciesObj) {
+        return fetch(speciesObj.shape.url).then((response) => response.json());
+      }
+
+      pokeObj("https://pokeapi.co/api/v2/pokemon/pikachu")
+        .then(species)
+        .then(shape)
+        .then(console.log)
+        .catch(console.error);
+    </script>
+  </body>
+</html>
