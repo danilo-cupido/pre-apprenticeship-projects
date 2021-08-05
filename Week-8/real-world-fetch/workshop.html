@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real world fetch</title>
+  </head>
+  <body>
+    <script>
+      // fetch('https://echo.oliverjam.workers.dev/status/404')
+      //   .then((response) => console.log(response))
+      //   .catch((error) => console.log(error));
+
+      // fetch('https://echo.oliverjam.workers.dev/status/404')
+      //   .then((response) => {
+      //     if (!response.ok) {
+      //     throw new Error("response not OK!")
+      //     }
+      //     console.log(response)
+      //   })
+      //   .catch((error) => console.log(error));
+
+      fetch('https://echo.oliverjam.workers.dev/json', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ name: 'Danilo' }),
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('response not OK!');
+          }
+          console.log(response.json());
+        })
+        .catch((error) => console.log(error));
+    </script>
+
+    <!-- why do we have 2 scripts endings here?? -->
+  </body>
+</html>
