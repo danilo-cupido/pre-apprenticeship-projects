@@ -11,14 +11,14 @@ In this Wednesday’s workshop we looked at [HTML Forms](https://learn.foundersa
 
 ### Fetch
 
-[ ] Practice what you learnt in last week’s fetch workshop with this [real-world fetch workshop](https://learn.foundersandcoders.com/course/syllabus/pre-app-8/schedule/).
+- [ ] Practice what you learnt in last week’s fetch workshop with this [real-world fetch workshop](https://learn.foundersandcoders.com/course/syllabus/pre-app-8/schedule/).
 
 ### Tech Spike
 
-[ ] Complete the three [Tech Spikes](https://learn.foundersandcoders.com/course/syllabus/pre-app-8/spikes/) on debugging JavaScript, asynchronous JavaScript, and debugging network requests.
+- [ ] Complete the three [Tech Spikes](https://learn.foundersandcoders.com/course/syllabus/pre-app-8/spikes/) on debugging JavaScript, asynchronous JavaScript, and debugging network requests.
 
 ### Project
 
-[ ] Continue working on your project site from last week. Add two API calls to collect your data.
+- [ ] Continue working on your project site from last week. Add two API calls to collect your data.
 
 ### Employment
