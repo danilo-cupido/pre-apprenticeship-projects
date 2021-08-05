@@ -1,7 +1,7 @@
 # pre-apprenticeship-projects
 
-A collection of my pre apprenticeship projects
-[Gallery](https://danilo-cupido.github.io/pre-apprenticeship-projects/)
+A collection of my pre apprenticeship projects:
+check the [Gallery](https://danilo-cupido.github.io/pre-apprenticeship-projects/)
 
 ![FAC logo](https://www.coops.tech/images/coops/founders-and-coders)
 
