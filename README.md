@@ -5,36 +5,21 @@ check the [Gallery](https://danilo-cupido.github.io/pre-apprenticeship-projects/
 
 ![FAC logo](https://www.coops.tech/images/coops/founders-and-coders)
 
-## Week 6
+## Week 7
 
-### GitHub
+In this Wednesday’s workshop we looked at [functions, callbacks and asynchronous JavaScript](https://learn.foundersandcoders.com/workshops/functions-callbacks-async/).
 
-Upload your learnings from this week onto your learning repository.
+### Fetch
 
-Now that you’ve code reviewed someone else’s code, you can review and refactor your own site. Consider the architecture of the site, the focus and what you want to show off to visitors.
+This week’s project asks you to make two API calls. In order to do so, we’ll use fetch to grab data from our API’s - complete [this workshop](https://learn.foundersandcoders.com/workshops/learn-fetch/) to get started with fetch.
 
-Pair up and review one anothers’ sites too.
+### Promises
+
+Learn about promises in [this workshop](https://learn.foundersandcoders.com/workshops/promise-practice/).
 
 ### Project
 
-Continue working on your digital agency site in pairs. Have a look at the [new User Stories](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/project/) and work on them this week.
-
-### Execute Program
-
-Keep up with your daily practice on Execute Program.
-
-### JavaScript30
-
-Continue working on JavaScript30 Projects. We suggest taking a look at these two:
-
-- JS30: Object and Arrays - Reference VS Copy
-- JS30: Sorting Band Names without articles
-
-This week’s [project](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/project/) take precedence over JavaScript30 projects. Focus on delivering on your features there before completing additional projects.
-
-### Spikes
-
-This week, there is one [tech spike on Advanced DOM](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/spikes/).
+Work on getting your [project](https://learn.foundersandcoders.com/course/syllabus/pre-app-7/project/) repository set up ready for making API calls next week.
 
 ### Employment
 
@@ -46,5 +31,5 @@ This week, there is one [tech spike on Advanced DOM](https://learn.foundersandco
 * Keep adding green squares on GitHub
 
 - [x] Start work on your professional presence
-- [ ] Research next week’s employer
-- [ ] Keep working on your challenges repo
+- [x] Research next week’s employer
+- [x] Keep working on your challenges repo
