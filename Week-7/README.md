@@ -11,15 +11,15 @@ In this Wednesday’s workshop we looked at [functions, callbacks and asynchrono
 
 ### Fetch
 
-[x] This week’s project asks you to make two API calls. In order to do so, we’ll use fetch to grab data from our API’s - complete [this workshop](https://learn.foundersandcoders.com/workshops/learn-fetch/) to get started with fetch.
+- [x] This week’s project asks you to make two API calls. In order to do so, we’ll use fetch to grab data from our API’s - complete [this workshop](https://learn.foundersandcoders.com/workshops/learn-fetch/) to get started with fetch.
 
 ### Promises
 
-[x] Learn about promises in [this workshop](https://learn.foundersandcoders.com/workshops/promise-practice/).
+- [x] Learn about promises in [this workshop](https://learn.foundersandcoders.com/workshops/promise-practice/).
 
 ### Project
 
-[x] Work on getting your [project](https://learn.foundersandcoders.com/course/syllabus/pre-app-7/project/) repository set up ready for making API calls next week.
+- [x] Work on getting your [project](https://learn.foundersandcoders.com/course/syllabus/pre-app-7/project/) repository set up ready for making API calls next week.
 
 ### Employment
 
