@@ -5,31 +5,20 @@ check the [Gallery](https://danilo-cupido.github.io/pre-apprenticeship-projects/
 
 ![FAC logo](https://www.coops.tech/images/coops/founders-and-coders)
 
-## Week 7
+## Week 8
 
-In this Wednesday’s workshop we looked at [functions, callbacks and asynchronous JavaScript](https://learn.foundersandcoders.com/workshops/functions-callbacks-async/).
+In this Wednesday’s workshop we looked at [HTML Forms](https://learn.foundersandcoders.com/workshops/html-forms/).
 
 ### Fetch
 
-This week’s project asks you to make two API calls. In order to do so, we’ll use fetch to grab data from our API’s - complete [this workshop](https://learn.foundersandcoders.com/workshops/learn-fetch/) to get started with fetch.
+[ ] Practice what you learnt in last week’s fetch workshop with this [real-world fetch workshop](https://learn.foundersandcoders.com/course/syllabus/pre-app-8/schedule/).
 
-### Promises
+### Tech Spike
 
-Learn about promises in [this workshop](https://learn.foundersandcoders.com/workshops/promise-practice/).
+[ ] Complete the three [Tech Spikes](https://learn.foundersandcoders.com/course/syllabus/pre-app-8/spikes/) on debugging JavaScript, asynchronous JavaScript, and debugging network requests.
 
 ### Project
 
-Work on getting your [project](https://learn.foundersandcoders.com/course/syllabus/pre-app-7/project/) repository set up ready for making API calls next week.
+[ ] Continue working on your project site from last week. Add two API calls to collect your data.
 
 ### Employment
-
-- [x] Set aside at least one hour every day, 5 days/week
-
-* Execute Program
-* Khan Academy, Algorithms
-* Keep developing those Twitter conversations
-* Keep adding green squares on GitHub
-
-- [x] Start work on your professional presence
-- [x] Research next week’s employer
-- [x] Keep working on your challenges repo
