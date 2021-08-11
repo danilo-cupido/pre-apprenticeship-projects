@@ -19,6 +19,15 @@ In this Wednesday’s workshop we looked at [HTML Forms](https://learn.foundersa
 
 ### Project
 
-- [ ] Continue working on your project site from last week. Add two API calls to collect your data.
+- [x] Continue working on your project site from last week. Add two API calls to collect your data.
 
 ### Employment
+
+- Execute Program
+- Khan Academy, Algorithms
+- Keep developing those Twitter conversations
+- Keep adding green squares on GitHub
+
+* [x] Keep working on your professional presence
+* [x] Research next week’s employer
+* [x] Keep working on your challenges repo
