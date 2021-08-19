@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+:root {
+  --font: 'Josefin Sans', sans-serif;
+  --background-color: rgb(253, 253, 175);
+  --dark-background-color: rgba(18, 20, 1, 0.63);
+}
+
 .center {
   max-width: 40rem;
   margin-left: auto;
@@ -55,7 +63,7 @@
 
 .title {
   font-size: 2rem;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   text-shadow: 1px 1px 1px grey;
 }
 
@@ -74,8 +82,7 @@ figure img:hover {
 }
 
 body {
-  font-family: system-ui, sans-serif;
-  background-color: rgba(171, 211, 235, 0.699);
+  background-color: var(--background-color);
 }
 
 a {
@@ -97,12 +104,18 @@ img {
 figcaption {
   padding-top: 5px;
   text-align: center;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
 }
 
 header {
   border-bottom: 1px solid hsl(200, 10%, 80%);
   padding: 0.75rem 1.5rem;
+}
+
+button {
+  font: var(--font);
+  border: none;
+  background: none;
 }
 
 main {
@@ -115,6 +128,7 @@ main {
 }
 
 footer {
+  font: var(--font);
   text-align: center;
   border-top: 1px solid hsl(200, 10%, 80%);
   padding: 0.75rem 1.5rem;
@@ -129,18 +143,13 @@ footer a:hover {
 }
 
 .darkBackground {
-  background-color: #303133;
+  background-color: var(--dark-background-color);
   transition: 0.5s ease;
 }
 
 .darkText {
   color: white;
   transition: 0.5s ease;
-}
-
-button {
-  border: none;
-  background: none;
 }
 
 .visible {
