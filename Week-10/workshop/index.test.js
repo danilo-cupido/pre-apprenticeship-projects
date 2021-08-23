@@ -45,3 +45,19 @@ test('Can not multiply the numbers', () => {
   notEqual(calculate(1000, '*', 3456), 3456000);
   notEqual(calculate(18.2, '*', 13.48), 245.336);
 });
+
+// DIVISION
+
+test('Can divide the numbers', () => {
+  equal(calculate(1, '/', 1), 1, 'The result is correct');
+  equal(calculate(15, '/', -16), -0.9375, 'It works properly');
+  equal(calculate(1000, '/', 250), 4, 'Superb');
+  equal(calculate(18.2, '/', 13.48), 245.336, 'You got it right');
+});
+
+test('Can not divide the numbers', () => {
+  notEqual(calculate(3, '/', 4), 0.75);
+  notEqual(calculate(15, '/', -16), -0.9375);
+  notEqual(calculate(1000, '/', 250), 4);
+  notEqual(calculate(10, '/', 3), 3.33333333333);
+});
