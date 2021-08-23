@@ -11,4 +11,4 @@ In this Wednesday’s session we discussed solutions to last week’s [unit test
 
 ### Integration testing
 
-- [ ] Practice writing [integration tests](https://learn.foundersandcoders.com/workshops/learn-integration-testing/) for more realistic code that uses the DOM.
+- [x] Practice writing [integration tests](https://learn.foundersandcoders.com/workshops/learn-integration-testing/) for more realistic code that uses the DOM.
