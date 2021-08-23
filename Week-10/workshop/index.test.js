@@ -82,8 +82,8 @@ test('Calculator can divide and page is update correctly', () => {
 
   // step 2
   a.value = '12';
-  sign.input = '/';
-  b.input = '4';
+  sign.value = '/';
+  b.value = '4';
 
   // step 3
   const submitBtn = document.querySelector("button[type='submit']");
