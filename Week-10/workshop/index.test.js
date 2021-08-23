@@ -71,3 +71,26 @@ test('Can operate with strings numbers', () => {
   equal(calculate('1000', '/', '250'), 4, 'You got it right');
   equal(calculate('1000', '+', 'danilo'), NaN, 'That is weird'); // Nan is falsy and makes the test fail even thiugh the expecte result is correct
 });
+
+// CHECK IF THE FORM WORKS CORRECTLY
+
+test('Calculator can divide and page is update correctly', () => {
+  // step 1
+  const a = document.querySelector("input[name='a']");
+  const sign = document.querySelector('select');
+  const b = document.querySelector("input[name='b']");
+
+  // step 2
+  a.value = '12';
+  sign.input = '/';
+  b.input = '4';
+
+  // step 3
+  const submitBtn = document.querySelector("button[type='submit']");
+  submitBtn.click();
+
+  // step 4
+  const result = document.querySelector('#result');
+  equal(result.textContent, '3');
+  result.textContent = ''; // reset the page so it doesn't affect the page/other tests
+});
