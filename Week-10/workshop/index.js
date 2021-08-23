@@ -12,7 +12,7 @@ function calculate(a, sign, b) {
     case '-':
       return subtract(nuMa, nuMb);
     case '*':
-      return multiply(anuMa, nuMb);
+      return multiply(nuMa, nuMb);
     case '/':
       return divide(nuMa, nuMb);
     default:
