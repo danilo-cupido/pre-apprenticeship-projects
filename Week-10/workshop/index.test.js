@@ -69,7 +69,7 @@ test('Can operate with strings numbers', () => {
   equal(calculate('45', '-', '18'), 27, 'It works properly');
   equal(calculate('1000', '*', '3456'), 3456000, 'Superb');
   equal(calculate('1000', '/', '250'), 4, 'You got it right');
-  equal(calculate('1000', '+', 'danilo'), NaN, 'That is weird'); // Nan is falsy and makes the test fail even thiugh the expecte result is correct
+  equal(calculate('1000', '+', 'danilo'), NaN, 'That is weird'); // NaN is falsy and makes the test fail even though the expected result is correct
 });
 
 // CHECK IF THE FORM WORKS CORRECTLY
