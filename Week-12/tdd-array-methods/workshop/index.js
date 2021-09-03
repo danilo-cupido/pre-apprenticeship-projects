@@ -52,3 +52,13 @@ function every(array, fn) {
   }
   return result;
 }
+
+function some(array, fn) {
+  let result = false;
+  for (let i = 0; i < array.length; i++) {
+    const el = array[i];
+    result = fn(el, i);
+    if (result) break; // need to stop if an element passes
+  }
+  return result;
+}
