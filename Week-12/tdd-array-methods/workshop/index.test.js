@@ -28,5 +28,19 @@ test('map() should pass item index in to function argument', () => {
 
 test('filter() requires array and fn arguments', () => {
   equal(filter(), 'Please pass an array');
-  equal(filter([]), 'Please pass a mapping function');
+  equal(filter([]), 'Please pass a filtering function');
 });
+
+test('filter() should return an array with all the elements if all pass the test', () => {
+  const filteredArr = filter([50], () => true);
+  equal(filteredArr[0], 50);
+});
+
+test("filter() should remove elements that don't pass the test from the array", () => {
+  const filteredArr = filter([20, 30], (n) => n > 25);
+  equal(filteredArr[1], undefined);
+});
+
+// testing every()
+
+test('every() should return an array with the same elements of the original if all pass the test', () => {});
