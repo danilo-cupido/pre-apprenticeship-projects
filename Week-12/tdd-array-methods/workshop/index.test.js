@@ -43,12 +43,24 @@ test("filter() should remove elements that don't pass the test from the array", 
 
 // testing every()
 
-test('every() should return an array with the same elements of the original if all pass the test', () => {
-  const finalArr = every([1, 2, 3], (n) => n > 0);
-  equal(finalArr, true);
+test('every() should return true if all pass the test', () => {
+  const result = every([1, 2, 3], (n) => n > 0);
+  equal(result, true);
 });
 
-test('every() should return an array with less elements than the original if some fail the test', () => {
-  const finalArr = every([2, 5, 8], (n) => n > 3);
-  equal(finalArr, false);
+test('every() should return false if one element fails the test', () => {
+  const result = every([2, 5, 8], (n) => n > 3);
+  equal(result, false);
+});
+
+// testing some()
+
+test('some() should return true if one element passes the test', () => {
+  const result = some([2, 5, 8], (n) => n > 6);
+  equal(result, true);
+});
+
+test('some() should return false if no elements passes the test', () => {
+  const result = some([2, 5, 8], (n) => n > 10);
+  equal(result, false);
 });
