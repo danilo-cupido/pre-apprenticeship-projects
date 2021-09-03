@@ -23,7 +23,7 @@ function map(array, fn) {
   const newArray = [];
   for (let i = 0; i < array.length; i++) {
     const el = array[i];
-    const newEl = fn(el, i); // only change is passing i here
+    const newEl = fn(el, i);
     newArray.push(newEl);
   }
 
@@ -32,5 +32,13 @@ function map(array, fn) {
 
 function filter(array, fn) {
   if (!Array.isArray(array)) return 'Please pass an array';
-  if (typeof fn !== 'function') return 'Please pass a mapping function';
+  if (typeof fn !== 'function') return 'Please pass a filtering function';
+  const filteredArray = [];
+  for (let i = 0; i < array.length; i++) {
+    const el = array[i];
+    const filteredEl = fn(el, i);
+    if (filteredEl) filteredArray.push(el);
+  }
+
+  return filteredArray;
 }
