@@ -64,3 +64,15 @@ test('some() should return false if no elements passes the test', () => {
   const result = some([2, 5, 8], (n) => n > 10);
   equal(result, false);
 });
+
+// testing find()
+
+test('find() should return the first element that passes the test', () => {
+  const result = find([2, 5, 8], (n) => n > 6);
+  equal(result, 8);
+});
+
+test('find() should return undefined if no elements passes the test', () => {
+  const result = find([2, 5, 8], (n) => n > 10);
+  equal(result, undefined);
+});
