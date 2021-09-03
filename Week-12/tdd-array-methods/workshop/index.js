@@ -42,3 +42,13 @@ function filter(array, fn) {
 
   return filteredArray;
 }
+
+function every(array, fn) {
+  let result = true;
+  for (let i = 0; i < array.length; i++) {
+    const el = array[i];
+    result = fn(el, i);
+    if (!result) break; // need to stop if an element fails
+  }
+  return result;
+}
