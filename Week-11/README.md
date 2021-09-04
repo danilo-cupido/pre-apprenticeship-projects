@@ -15,4 +15,4 @@ In this Wednesday’s session we discussed solutions to last week’s [integrati
 
 ### Project
 
-Create the GitHub repo, then write the user story issues and accompanying tests for [this week’s project](https://learn.foundersandcoders.com/course/syllabus/pre-app-11/project/). The tests should fail for now (since you haven’t written any code yet), but getting all the structure in place will help you when you start actually building the project next week.
+- [x] Create the GitHub repo, then write the user story issues and accompanying tests for [this week’s project](https://learn.foundersandcoders.com/course/syllabus/pre-app-11/project/). The tests should fail for now (since you haven’t written any code yet), but getting all the structure in place will help you when you start actually building the project next week.
