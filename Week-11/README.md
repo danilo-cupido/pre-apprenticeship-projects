@@ -11,7 +11,7 @@ In this Wednesday’s session we discussed solutions to last week’s [integrati
 
 ### Tech Spikes
 
-- [ ] Complete the two [Tech Spikes](https://learn.foundersandcoders.com/course/syllabus/pre-app-11/spikes/) on “checking your code” and “testing methodologies”.
+- [x] Complete the two [Tech Spikes](https://learn.foundersandcoders.com/course/syllabus/pre-app-11/spikes/) on “checking your code” and “testing methodologies”.
 
 ### Project
 
